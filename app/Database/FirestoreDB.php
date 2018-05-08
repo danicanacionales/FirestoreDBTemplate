@@ -8,7 +8,7 @@ class FirestoreDB{
     private $firestore;
 
     public function __construct () {
-        $json_cred = base_path().'/MembersDB-82766a5c9abb.json';
+        $json_cred = base_path().'/XXXXXDB-XXXXX.json';
 
         $this-> firestore = new FirestoreClient ( [
             'keyFilePath' => $json_cred
