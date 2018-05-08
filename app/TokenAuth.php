@@ -35,7 +35,7 @@ class TokenAuth {
 
     public function validateToken($token, $uid) {
         $data = new ValidationData();
-        $data -> setIssuer('membersdb-bc6fb@appspot.gserviceaccount.com');
+        $data -> setIssuer('XXXXXX@appspot.gserviceaccount.com');
         $data -> setAudience('https://identitytoolkit.googleapis.com/google.identity.identitytoolkit.v1.IdentityToolkit');
         $data -> setId($uid);
 
